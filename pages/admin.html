@@ -16,7 +16,6 @@
 
     <style>
       body {
-        background-color: grey;
         margin: 0 !important;
         padding: 0 !important;
       }
@@ -36,7 +35,7 @@
         top: 0;
         padding-top: 60px;
         height: 100%;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
 
       .row {
@@ -45,7 +44,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="bg-dark">
     <!-- NAVBAR -->
     <nav class="navbar navbar-light bg-info px-5">
       <div class="container-fluid justify-content-end px-5">
@@ -95,7 +94,7 @@
           class="col-md-5 ms-auto p-4 border border-light rounded bg-light d-flex justify-content-center"
         >
           <!--DONUT CHART-->
-          <div class="container text-center">
+          <div class="container bg-light rounded">
             <h2 class="py-3">Donut Chart</h2>
             <canvas id="doughnutChart"></canvas>
           </div>
@@ -105,10 +104,10 @@
       <!-- TODO -->
       <div class="row my-5">
         <div
-          class="col-lg-4 col-sm-12 border border-light rounded bg-light d-flex flex-column justify-content-start align-items-center"
+          class="col-lg-4 col-sm-12 border border-light rounded bg-light d-flex flex-column justify-content-start align-items-center py-5"
         >
-          <div class="container align-self-center py-5">
-            <h5>TO-DO</h5>
+          <div class="container align-self-center py-2">
+            <h3>TO-DO</h3>
           </div>
           <ul class="list-group w-100">
             <li class="list-group-item">
@@ -160,9 +159,9 @@
         </div>
         <!-- ALERTS -->
         <div
-          class="col-lg-7 col-sm-12 ms-auto p-4 bg-light border border-light rounded bg-light"
+          class="col-lg-7 col-sm-12 ms-auto p-4 bg-light border border-light rounded"
         >
-          <h5>Alerts</h5>
+          <h3>ALERTS</h3>
           <div class="alert alert-primary" role="alert">
             A simple primary alert—check it out!
           </div>
